@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="noir">#000000</color>
+    <color name="orange">#EF6C00</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rouge">#C62828</color>
+    <color name="rouge_fonce">#8E0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="vert">#2E7D32</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">CalculIMC</string>
+    <string name="calculer">Calculer</string>
+    <string name="cat_insuffisance">Insuffisance pondérale</string>
+    <string name="cat_normale">Corpulence normale</string>
+    <string name="cat_obesite_moderee">Obésité modérée</string>
+    <string name="cat_obesite_morbide">Obésité morbide</string>
+    <string name="cat_obesite_severe">Obésité sévère</string>
+    <string name="cat_surpoids">Surpoids</string>
+    <string name="effacer">Effacer</string>
+    <string name="erreur_champs_vides">Veuillez compléter le poids et la taille.</string>
+    <string name="erreur_valeur_invalide">Valeur saisie invalide.</string>
+    <string name="erreur_valeur_positive">Le poids et la taille doivent être strictement positifs.</string>
+    <string name="format_imc">IMC : %1$s</string>
+    <string name="hint_poids">Poids en kg</string>
+    <string name="hint_taille">Taille en m</string>
+    <string name="titre">Calcul de l\'IMC</string>
+    <style name="Theme.CalculIMC" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+</resources>
